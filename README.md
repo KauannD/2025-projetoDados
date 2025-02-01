@@ -8,13 +8,13 @@
 
 ## Visão Geral
 
-Este projeto realiza a análise, visualização e modelagem preditiva dos dados de locações de veículos. O objetivo é fornecer insights sobre o desempenho do negócio, identificar padrões e tendências, e construir modelos preditivos para auxiliar na tomada de decisões.
+Objetivo do projeto realiza a análise, visualização e modelagem preditiva dos dados de locações de veículos. O objetivo é fornecer insights sobre o desempenho do negócio, identificar padrões e tendências.
 
 ## Estrutura do Projeto
 
 
 ```plaintext
-projeto_data_science/
+projeto/
 ├── data/
 │   ├── raw/              # Dados brutos
 │   ├── processed/        # Dados processados
@@ -34,17 +34,23 @@ projeto_data_science/
 ├── main.py               # Script principal do projeto
 └── README.md             # Documentação do projeto
 
-Funcionalidades
-Carregamento e Limpeza de Dados: Carrega os dados brutos e realiza a limpeza e pré-processamento.
-Cálculo de KPIs: Calcula indicadores-chave de desempenho, como receita total, tempo médio de locação, distribuição por forma de pagamento, etc.
-Visualizações: Gera gráficos e visualizações para explorar os dados e identificar padrões e tendências.
-Modelagem Preditiva: Constrói e avalia modelos preditivos para prever a demanda futura e outros aspectos do negócio.
+```
 
-- Instalação
+### Funcionalidades
+- Carregamento e Limpeza de Dados: Carrega os dados brutos e realiza a limpeza e pré-processamento.
+- Cálculo de KPIs: Calcula indicadores-chave de desempenho, como receita total, tempo médio de locação, distribuição por forma de pagamento, etc.
+- Visualizações: Gera gráficos e visualizações para explorar os dados e identificar padrões e tendências.
+- Modelagem Preditiva: Constrói e avalia modelos preditivos para prever a demanda futura e outros aspectos do negócio.
+
+### Instalação
+```plaintext
 Pré-requisitos
 Python 3.10+
 Poetry (para gerenciamento de dependências)
-Passos para Instalação
+```
+
+### Passos para Instalação
+```plaintext
 Clone o repositório:
 
 bash
@@ -66,8 +72,10 @@ Para executar o notebook Jupyter e realizar a análise de forma interativa, use 
 bash
 poetry run jupyter notebook
 Abra o arquivo analise_locacoes.ipynb e execute as células conforme necessário.
+```
 
 ***Estrutura dos Arquivos***
+```plaintext
 src/data_cleaning.py
 Contém funções para carregar, limpar e salvar os dados.
 
@@ -93,7 +101,7 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e pull re
 ```
 ## Uso
 
-- Executar a Interface Gráfica
+- Interface Gráfica
 Para executar a interface gráfica, use o comando:
 bash
 poetry run python interface/interface.py
